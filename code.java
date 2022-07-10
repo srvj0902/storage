@@ -9,7 +9,7 @@ class Main {
     while(num != 0) {
     
       // get last digit from num
-      int digit = num % 10;
+      int digit = num % 350;
       reversed = reversed * 10 + digit;
 
       // remove the last digit from num

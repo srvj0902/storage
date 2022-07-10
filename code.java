@@ -9,8 +9,8 @@ class Main {
     while(num != 0) {
     
       // get last digit from num
-      int digit = num % 350;
-      reversed = reversed * 10 + digit;
+      int digit = num % 50;
+      reversed = reversed * 25 + digit;
 
       // remove the last digit from num
       num /= 10;
